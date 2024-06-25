@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Faculty</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #1e1e1e;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        .heading {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+            color: #ffffff;
+        }
+
+        .faculty {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .doctor {
+            width: 23%;
+            margin-bottom: 30px;
+            text-align: center;
+            background-color: #2e2e2e;
+            border: 1px solid #444;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            padding: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .doctor:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .doctor img {
+            width: 100%;
+            height: auto;
+            max-width: 200px; /* Ensures all images have the same maximum width */
+            max-height: 200px; /* Ensures all images have the same maximum height */
+            object-fit: cover; /* Ensures the images are properly contained */
+            border-radius: 10px 10px 0 0;
+        }
+
+        .doctor h2 {
+            font-size: 1.4em;
+            margin: 15px 0 10px;
+            color: #ffffff;
+        }
+
+        .doctor p {
+            font-size: 1em;
+            color: #bbbbbb;
+        }
+
+        @media (max-width: 768px) {
+            .doctor {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .doctor {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Our Faculty</h1>
+        <div class="faculty">
+            <!-- Doctor 1 -->
+            <div class="doctor">
+                <img src="../../assets/gallery-1.png" alt="Doctor 1">
+                <h2>Dr. Leah Smith</h2>
+                <p>Specialization: Clinical Psychologist</p>
+            </div>
+            <!-- Doctor 2 -->
+            <div class="doctor">
+                <img src="../../assets/gallery-2.png" alt="Doctor 2">
+                <h2>Dr. Emily Brown</h2>
+                <p>Specialization: Counseling Psychologist</p>
+            </div>
+            <!-- Doctor 3 -->
+            <div class="doctor">
+                <img src="../../assets/gallery-3.png" alt="Doctor 3">
+                <h2>Dr. Michael Johnson</h2>
+                <p>Specialization: Neuropsychologist</p>
+            </div>
+            <!-- Doctor 4 -->
+            <div class="doctor">
+                <img src="../../assets/gallery-4.png" alt="Doctor 4">
+                <h2>Dr. Savar Wilson</h2>
+                <p>Specialization: Forensic Psychologist</p>
+            </div>
+            <!-- Doctor 5 -->
+            <div class="doctor">
+                <img src="../../assets/gallery-5.jpeg" alt="Doctor 5">
+                <h2>Dr. Jess Lee</h2>
+                <p>Specialization: Educational Psychologist</p>
+            </div>
+            <!-- Doctor 6 -->
+            <div class="doctor">
+                <img src="../../assets/gallery-6.jpeg" alt="Doctor 6">
+                <h2>Dr. David Miller</h2>
+                <p>Specialization: Social Psychologist</p>
+            </div>
+            <!-- Doctor 7 -->
+            <div class="doctor">
+                <img src="../../assets/gallery-7.jpeg" alt="Doctor 7">
+                <h2>Dr. Samanfer White</h2>
+                <p>Specialization: Developmental Psychologist</p>
+            </div>
+            <!-- Doctor 8 -->
+            <div class="doctor">
+                <img src="../../assets/gallery-8.jpeg" alt="Doctor 8">
+                <h2>Dr. Alex Davis</h2>
+                <p>Specialization: Industrial-Organizational Psychologist</p>
+            </div>
+            <!-- Doctor 9 -->
+            <div class="doctor">
+                <img src="../../assets/gallery-9.jpeg" alt="Doctor 9">
+                <h2>Dr. Rachel Taylor</h2>
+                <p>Specialization: Health Psychologist</p>
+            </div>
+            <!-- Doctor 10 -->
+            <div class="doctor">
+                <img src="../../assets/gallery-10.jpeg" alt="Doctor 10">
+                <h2>Dr. Matthew Clark</h2>
+                <p>Specialization: Sports Psychologist</p>
+            </div>
+            <!-- Doctor 11 -->
+            <div class="doctor">
+                <img src="../../assets/gallery-11.jpeg" alt="Doctor 11">
+                <h2>Dr. Jennifer Martinez</h2>
+                <p>Specialization: Cognitive Psychologist</p>
+            </div>
+            <!-- Doctor 12 -->
+            <div class="doctor">
+                <img src="../../assets/gallery-12.jpeg" alt="Doctor 12">
+                <h2>Dr. Kevin Brown</h2>
+                <p>Specialization: Counseling Psychologist</p>
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
